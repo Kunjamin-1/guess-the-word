@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>word scramble</h1>
+        </div>
+        <div class="box">
+            <p class="word-display"></p>
+        </div>
+        <div class="tries-and-mistake">
+            <div class="tries-counter">
+                <p class="tries">tries (1/5) :</p>
+                <p class="circle " style=" background-color: #7429C6;"></p>
+                <p class="circle circle-not-active"></p>
+                <p class="circle circle-not-active"></p>
+                <p class="circle circle-not-active"></p>
+                <p class="circle circle-not-active"></p>
+            </div>
+            <div class="mistake">
+                <p>mistake: <span></span></p>
+            </div>
+        </div>
+        <div class="input-boxes">
+            <input type="text" maxlength="1" class="input-box"></input>
+            <input type="text" maxlength="1" class="input-box"></input>
+            <input type="text" maxlength="1" class="input-box"></input>
+            <input type="text" maxlength="1" class="input-box"></input>
+            <input type="text" maxlength="1" class="input-box"></input>
+            <input type="text" maxlength="1" class="input-box"></input>
+        </div>
+        <div class="button">
+            <button class="random">random</button>
+            <button class="reset">reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
